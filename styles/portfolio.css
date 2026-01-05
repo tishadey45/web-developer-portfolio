@@ -11,12 +11,66 @@
 /* shared style */
 .text-primary{
    color: rgba(253, 110, 10, 1);
+
+}
+.dark-2{
+  color: #474747;
+}
+.btn-primary{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  color: white;
+  padding: 18px 15px;
+  border-radius: 5px;
 }
 /* nav styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
 }
 .nav-title{
 font-weight: 800;
 font-size: 45px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+/* header */
+.header{
+  background-image:url("../images/developer.png"), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 230px;
+}
+.banner-content{
+  max-width: 580px;
+}
+.banner-greetings{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 85px;
+}
+.banner-profile-pic{
+  font-weight: 580px;
 }
