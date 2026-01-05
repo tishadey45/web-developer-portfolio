@@ -5,22 +5,20 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "width" 100;
+  font-variation-settings: "width" 100;
 }
 /* shared style */
-.secondary-bg{
+.secondary-bg {
   background-color: rgba(255, 248, 243, 1);
 }
-.text-primary{
-   color: rgba(253, 110, 10, 1);
-
+.text-primary {
+  color: rgba(253, 110, 10, 1);
 }
-.dark-2{
+.dark-2 {
   color: #474747;
 }
-.btn-primary{
-  background-color: #FD6E0A;
+.btn-primary {
+  background-color: #fd6e0a;
   font-weight: bold;
   font-size: 20px;
   border: none;
@@ -28,79 +26,97 @@
   padding: 18px 15px;
   border-radius: 5px;
 }
-.section-title{
+.section-title {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
 }
-.section-description{
+.section-description {
   font-size: 18px;
   color: #757575;
 }
 /* nav styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
-.nav-title{
-font-weight: 800;
-font-size: 45px;
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
 }
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
 }
-nav ul li{
+nav ul li {
   list-style: none;
   margin-right: 50px;
 }
-nav li a{
+nav li a {
   text-decoration: none;
   font-size: 20px;
 }
+.text-center {
+  text-align: center;
+}
 /* header */
-.header{
-  background-image:url("../images/developer.png"), url('../images/header_bg.png');
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
 /* banner styles */
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 230px;
 }
-.banner-content{
+.banner-content {
   max-width: 580px;
 }
-.banner-greetings{
+.banner-greetings {
   font-size: 45px;
   font-weight: 600;
 }
-.banner-title{
+.banner-title {
   font-weight: bold;
   font-size: 85px;
 }
-.banner-profile-pic{
+.banner-profile-pic {
   font-weight: 580px;
 }
 /* main styles */
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-bottom: 130px;
+}
 /*about styles*/
-.about{
+.about {
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
 }
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-around;
 }
-.item-description{
+.item-description {
   font-weight: 600;
 }
+/* skills section styles */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
